@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color:#1f2937;
+        color: #ffffff;
+        padding: 20px 80px;
+
+
+    }
+    nav div ul{
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        cursor: pointer;
+
+    }
+    nav div button{
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+
+    nav div button:hover{
+        background-color:#5a7dce;
+        color: #ffffff;
+    }
+
+
+    .hero{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #010101;
+        padding: 40px 80px;
+       
+    }
+   
+    .hero div{
+        color: #ffffff;
+        width: 50%;
+
+    }
+    .hero div h1{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    .hero div p{
+        font-size: 1.2rem;
+        color: #c0bcbc;
+        margin-bottom: 1rem;
+    }
+
+    .hero div button{
+        padding: 4px 6px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 200px;
+    }
+    
+    .hero div img{
+        width: 100%;
+        border-radius: 20px;
+        object-fit: cover;
+        object-position: center;
+        box-shadow: 0 0 10px #ffffff;
+    }
+
+    .hero div img:hover{
+        transform: rotate(10deg);
+        transform: all 0.5s ease-in-out;
+    }
+
+    .logo-text {
+        text-align: center;
+        color: #1f2937;
+        margin: 20px;
+        font-size: 42px;
+    }
+
+    .logo{
+        margin: 20px 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid #393939;
+        padding: 40px 80px;
+        
+
+    }
+    .logo div img{
+        width: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+</style>
+<body>
+    <nav>
+        <div>
+            <p>myLogo</p>
+        </div>
+        <div>
+            <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact</li>
+            </ul>
+        </div>
+        <div>
+            <button>Singup</button>
+            <button>Login</button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div>
+        <h1> Hero Title</h1>   
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa et omnis autem iusto esse, deleniti sit ut modi iste facere atque exercitationem. Sint iure veniam magnam id quod quam perferendis.</p>
+        <button>Signup</button>
+        </div>
+        <div>
+            <img width="400px" height="300px" src="https://cdn.pixabay.com/photo/2023/12/16/19/33/christmas-8453173_1280.jpg" alt="">
+        </div>
+    </section>
+
+    <h2 class="logo-text">Our Clients </h2>
+    <section class="logo">
+        <div><img src="https://images.pexels.com/photos/430205/pexels-photo-430205.jpeg" alt="" ></div>
+        <div><img src="https://images.pexels.com/photos/1337380/pexels-photo-1337380.jpeg" alt="" ></div>
+        <div><img src="https://images.pexels.com/photos/430205/pexels-photo-430205.jpeg" alt="" ></div>
+        <div><img src="https://images.pexels.com/photos/1337380/pexels-photo-1337380.jpeg" alt="" ></div>
+        <div><img src="https://images.pexels.com/photos/430205/pexels-photo-430205.jpeg" alt="" ></div>
+    </section>
+</body>
+</html>
